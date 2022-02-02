@@ -1,0 +1,130 @@
+body {
+  background-color: #c5d5cb;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+}
+h1 {
+  font-family: "Courier New", Courier, monospace;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  line-height: 30px;
+  padding-top: 30px;
+}
+h2 {
+  font-family: "Courier New", Courier, monospace;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  justify-content: center;
+}
+.img-circle {
+  border-radius: 50%;
+  height: auto;
+  width: 150px;
+  border: 1px solid rgba(255, 255, 255, 0.796);
+}
+.img-shadow {
+  box-shadow: 0 6px 6px rgb(0 0 0 / 30%);
+  /* transition: border-color 5s ease; */
+}
+.ahmed-photo {
+  margin: 0;
+  display: block;
+  margin: 15 auto;
+  width: 20%;
+}
+footer {
+  text-align: center;
+  font-size: 30px;
+}
+.fab {
+  color: #ffffff;
+}
+.socials li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px;
+}
+.description {
+  text-align: center;
+  padding: 50px;
+}
+.card {
+  background-color: #c5d5cb;
+  margin: 0 100px;
+  border-radius: 10px;
+}
+.button {
+  color: FFFFFF;
+  font-weight: 700;
+  background-color: #d6e1da;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  display: block;
+  justify-content: center;
+  text-decoration: none;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    margin: auto 10%;
+  }
+  .ahmed-photo {
+    display: block;
+    margin: 15 auto;
+    width: 40%;
+  }
+  .description {
+    text-align: center;
+    padding: 2%;
+  }
+  .card {
+    background-color: #c5d5cb;
+    margin: 0 100px;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    margin: 0 2%;
+  }
+  body {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+  }
+  .description {
+    text-align: center;
+    padding: 0%;
+  }
+  .card {
+    margin: 0 2%;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    margin: 0 20%;
+  }
+  body {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+  }
+  .card {
+    margin: 0 2%;
+    border-radius: 10px;
+  }
+}
