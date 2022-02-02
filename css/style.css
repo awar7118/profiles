@@ -37,6 +37,9 @@ h2 {
   margin: 15 auto;
   width: 20%;
 }
+.ahmed-photo a:hover{
+  width: 120%;
+}
 footer {
   text-align: center;
   font-size: 30px;
